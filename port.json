@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "btop",
+  "slug": "btop",
+  "group": "CLI & TUI",
+  "emoji": "📊",
+  "description": "Living Code for btop. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://github.com/aristocratos/btop",
+  "quick": "See installation instructions",
+  "aliases": [
+    "btop"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.theme",
+    "living-code-night.theme",
+    "living-code-paper.theme",
+    "living-code-signal.theme"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "btop running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "btop running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "btop running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "btop running Living Code Signal"
+    }
+  ]
+}
